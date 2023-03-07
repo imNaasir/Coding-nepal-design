@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #2771CA;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+nav h1{
+    color: #fff;
+    font-size: 35px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;  
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.media{
+    margin: 0 5px;
+}
+.media a{
+   text-decoration: none;
+   font-size: 15PX;
+   border-radius: 50%;
+   color: #000000;
+   background-color: #fff;
+   padding: 10px;
+}
+
+.logo{
+    box-sizing: border-box;
+    background-color: #2771CA;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 35px;
+    margin-left: 120px;
+}
+
+.logo a{
+    
+    box-sizing: border-box;
+    font-size: 32px;
+    background-color: #194F8D;
+}
+main{
+    width: 350px;
+    height: 65vh;
+    background-color: #1d1d1d;
+    margin-left: 120px;
+    text-align: center;
+    box-sizing: border-box;
+}
+ ol.unorder{
+    list-style: none;
+    line-height: 3.5;
+    
+}
+ol.unorder li a{
+    color: #F9F6FF;
+    font-size: 20px;
+    text-decoration: none;
+}
+.medies{
+    margin-top: 15px;
+    display: inline-block;
+
+}
+.medies a{
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: black;
+    font-size: larger;
+}
+
+section{
+    
+    width: 600px;
+    position: absolute;
+    right: 250px;
+    top: 160px;
+    height: 60vh;
+    padding-top: 100px;
+    text-align: justify;
+    line-height: 1.3;
+}
+section .responsive{
+    display: block;
+    color: #000000;
+    font-size: 60px;
+    font-weight: bolder;
+}
+section .navigation{
+    display: inline-block;
+    background-color: #000000;
+    color: #FFF;
+    font-size: 55px;
+    font-weight: bolder;
+    padding: 10px;
+}
+section .html_css{
+    display: block;
+    color: #000000;
+    font-size: 53px;
+    font-weight: bolder;
+
+}
+
