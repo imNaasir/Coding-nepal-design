@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    height: 80px;
+    background-color: #0182E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+}
+nav .log{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{margin-left: 20px;}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.5s;
+    padding: 8px;
+}
+.active{
+    background-color: #219DFD;
+    padding: 8px;
+    border-radius: 10px;
+
+}
+ul li a:hover:not(.active){
+    background-color: #219DFD;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+.main{
+    display: none;
+    width: 350px;
+    height: 65vh;
+    background-color: #1d1d1d;
+    margin-left: 120px;
+    margin-top: -35px;
+    box-sizing: border-box;
+   
+}
+.logo{
+    width: 350px;
+    margin-left: 120px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #0182E7;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.dropdown:hover .main{
+      display: block;
+      
+}
+          
+         
+
+.main ol{
+    display: none;
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+    display: block; 
+}
+ol li a{
+    
+    color: #fff;
+    text-decoration: none;
+    line-height: 4.7;
+    font-size: 16px;
+    font-weight: bold;}
+
+ol li a:hover:not(.active){
+    
+    color: #219DFD;
+  
+}
+ol li a.active{
+    color: blue;
+    background: none;
+}
+section{
+    
+    width: 700px;
+    height: 80vh;
+    position: absolute;
+    right: 160px;
+    top: 100px;
+    box-sizing: border-box;
+}
+section {
+    line-height: 0.9;
+    font-family: tahoma;}
+section .responsive{
+    display: block;
+    padding-top: 170px;
+    font-weight: bolder;
+    color: #0182E8;
+    font-size: 50px;
+}
+section .navigation{
+    display: block;
+    font-weight: bolder;
+    color: #0182E8;
+    font-size: 70px;
+}
+section .html_css{
+    display: inline-block;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 60px;
+    background-color: #0182E7;
+    padding: 8px;
+    margin-top:15px;
+}
